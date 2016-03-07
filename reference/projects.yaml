@@ -2558,6 +2558,7 @@ nova:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
         - assert:supports-rolling-upgrade
+        - stable:follows-policy
     nova-specs:
       repos:
         - openstack/nova-specs
@@ -2572,6 +2573,7 @@ nova:
         - type:library
         - release:managed
         - vulnerability:managed
+        - stable:follows-policy
     os-vif:
       repos:
         - openstack/os-vif
