@@ -2369,7 +2369,7 @@ neutron:
         - openstack/networking-arista
       tags:
         - release:independent
-        - release:has-stable-branches
+        - stable:follows-policy
     networking-bagpipe:
       repos:
         - openstack/networking-bagpipe
@@ -2390,7 +2390,7 @@ neutron:
         - openstack/networking-cisco
       tags:
         - release:independent
-        - release:has-stable-branches
+        - stable:follows-policy
     networking-fortinet:
       repos:
         - openstack/networking-fortinet
@@ -2401,7 +2401,7 @@ neutron:
         - openstack/networking-hyperv
       tags:
         - release:independent
-        - release:has-stable-branches
+        - stable:follows-policy
     networking-infoblox:
       repos:
         - openstack/networking-infoblox
@@ -2417,7 +2417,7 @@ neutron:
         - openstack/networking-l2gw
       tags:
         - release:independent
-        - release:has-stable-branches
+        - stable:follows-policy
     networking-lenovo:
       repos:
         - openstack/networking-lenovo
@@ -2428,19 +2428,19 @@ neutron:
         - openstack/networking-midonet
       tags:
         - release:independent
-        - release:has-stable-branches
+        - stable:follows-policy
     networking-odl:
       repos:
         - openstack/networking-odl
       tags:
         - release:independent
-        - release:has-stable-branches
+        - stable:follows-policy
     networking-ofagent:
       repos:
         - openstack/networking-ofagent
       tags:
         - release:independent
-        - release:has-stable-branches
+        - stable:follows-policy
     networking-onos:
       repos:
         - openstack/networking-onos
@@ -2456,13 +2456,13 @@ neutron:
         - openstack/networking-plumgrid
       tags:
         - release:independent
-        - release:has-stable-branches
+        - stable:follows-policy
     networking-powervm:
       repos:
         - openstack/networking-powervm
       tags:
         - release:independent
-        - release:has-stable-branches
+        - stable:follows-policy
     networking-sfc:
       repos:
         - openstack/networking-sfc
@@ -2473,7 +2473,7 @@ neutron:
         - openstack/networking-vsphere
       tags:
         - release:independent
-        - release:has-stable-branches
+        - stable:follows-policy
     neutron:
       repos:
         - openstack/neutron
@@ -2485,7 +2485,7 @@ neutron:
         - tc-approved-release
         - release:managed
         - release:cycle-with-milestones
-        - release:has-stable-branches
+        - stable:follows-policy
         - type:service
         - starter-kit:compute
         - vulnerability:managed
@@ -2496,7 +2496,7 @@ neutron:
         - openstack/neutron-lib
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
+        - stable:follows-policy
         - type:library
         - vulnerability:managed
     neutron-specs:
@@ -2509,7 +2509,7 @@ neutron:
         - openstack/octavia
       tags:
         - release:independent
-        - release:has-stable-branches
+        - stable:follows-policy
     python-neutron-pd-driver:
       repos:
         - openstack/python-neutron-pd-driver
@@ -2520,7 +2520,7 @@ neutron:
         - openstack/python-neutronclient
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
+        - stable:follows-policy
         - type:library
         - release:managed
         - vulnerability:managed
